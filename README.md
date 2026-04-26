@@ -72,6 +72,10 @@ from inside a service directory after exporting `PYTHONPATH` to the repo root.
 - `EMBEDDING_PROVIDER=deterministic` keeps vector generation local and predictable.
 - `EMBEDDING_PROVIDER=openai` uses OpenAI-compatible embeddings if your provider supports them.
 
+## Teammate Setup
+
+See [TEAMMATE_SETUP.md](TEAMMATE_SETUP.md) for a copy-paste setup guide covering fallback mode, OpenRouter, Gemini, admin bootstrap, and login.
+
 ## Production Notes
 
 - Keep `AUTO_MIGRATE_DB=true` for local development.
